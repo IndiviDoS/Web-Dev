@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project: Recipe Book</title>
+        <meta charset="utf-8">
+        <style>
+
+            body {
+                background-color: #f9f9f9; 
+                color: darkgray;
+            }
+            
+            h1 {
+                color: orangered; 
+            }
+            h2 {
+                color: teal;
+            }
+            
+            table {
+                background-color: #ffffff;
+                color: gray;
+                border: 1px solid lightgray;}
+            
+            th {
+                background-color: yellow; /* Yellow for table header */
+                color: #000; /* Black for text in table headers */
+            }
+            
+            td {
+                background-color: lightyellow; 
+                color: darkgray;
+            }
+            
+            a {
+                color: blue;
+                text-decoration: none;
+            }
+            
+            a:hover {
+                color: red;
+            }
+            
+            ul {
+                background-color: lightblue; 
+                   padding: 10px;
+            }
+            
+            li {
+                color: gray; 
+            }
+        </style>
+    </head>
+    <body>
+       
+        <h1>Yerdaulet's Recipe Book</h1>
+        
+        <div id="contents">
+            <h2>Contents:</h2>
+            <ol>
+                <li><a href="#recipe1">Easy Fried Rice</a></li>
+                <li><a href="#recipe2">Classic Pancakes</a></li>
+                <li><a href="#recipe3">Simple Spaghetti</a></li>
+            </ol>
+        </div>
+        
+        <h2 id="recipe1">Easy Fried Rice</h2>
+        <div class="recipe-list">
+            <ul>
+                <li>Time: 30 mins</li>
+                <li>Serves: 4</li>
+            </ul>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>Rice</td><td>1 cup</td></tr>
+                <tr><td>Eggs</td><td>2</td></tr>
+                <tr><td>Vegetable oil</td><td>2 tsp</td></tr>
+            </tbody>
+        </table>
+        <p><strong>Steps:</strong></p>
+        <ol>
+            <li>Cook rice in boiling water until tender, then drain and cool.</li>
+            <li>Heat oil, cook eggs into an omelet, chop, and set aside.</li>
+            <li>Mix all ingredients in a wok, stir-fry for 5 minutes, and serve.</li>
+        </ol>
+        <p><em>Source: <a href="https://www.taste.com.au/recipes/easy-fried-rice-3/5c89aa24-1de3-4ddc-9362-e68dfc489dc1" target="_blank">Taste.com.au</a></em></p>
+        
+        <h2 id="recipe2">Classic Pancakes</h2>
+        <div class="recipe-list">
+            <ul>
+                <li>Time: 20 mins</li>
+                <li>Serves: 4</li>
+            </ul>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>Flour</td><td>1 cup</td></tr>
+                <tr><td>Milk</td><td>1 cup</td></tr>
+                <tr><td>Egg</td><td>1</td></tr>
+            </tbody>
+        </table>
+        <p><strong>Steps:</strong></p>
+        <ol>
+            <li>Mix flour, milk, and egg into a smooth batter.</li>
+            <li>Heat a non-stick pan and pour batter to form pancakes.</li>
+            <li>Cook each side until golden brown and serve with syrup.</li>
+        </ol>
+        <p><em>Source: <a href="https://www.allrecipes.com/recipe/21014/good-old-fashioned-pancakes/" target="_blank">AllRecipes.com</a></em></p>
+        
+        <h2 id="recipe3">Simple Spaghetti</h2>
+        <div class="recipe-list">
+            <ul>
+                <li>Time: 25 mins</li>
+                <li>Serves: 4</li>
+            </ul>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>Spaghetti</td><td>200g</td></tr>
+                <tr><td>Tomato sauce</td><td>1 cup</td></tr>
+                <tr><td>Garlic</td><td>2 cloves</td></tr>
+            </tbody>
+        </table>
+        <p><strong>Steps:</strong></p>
+        <ol>
+            <li>Cook spaghetti in boiling water until al dente, then drain.</li>
+            <li>Sauté garlic in olive oil, then add tomato sauce.</li>
+            <li>Mix spaghetti with the sauce and serve hot.</li>
+        </ol>
+        <p><em>Source: <a href="https://www.bbcgoodfood.com/recipes/simple-spaghetti" target="_blank">BBC Good Food</a></em></p>
+    </body>
+</html>
