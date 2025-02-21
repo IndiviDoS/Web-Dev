@@ -1,0 +1,15 @@
+<div class="product-list">
+    <h2 *ngIf="products && products.length > 0">Product List</h2>
+    <ul>
+      <li *ngFor="let product of products" class="product-item">
+        <img [src]="product.image" alt="{{ product.name }}" class="product-img" />
+        <div class="product-details">
+          <span>{{ product.name }} - ${{ product.price }}</span>
+          <button class="like-btn" (click)="likeProduct(product)">❤️ {{ product.likes }}</button>
+          <button class="remove-btn" (click)="removeProduct(product)">🗑 Remove</button>
+        </div>
+      </li>
+    </ul>
+    <p *ngIf="!products || products.length === 0">No products available for this category.</p>
+  </div>
+  
