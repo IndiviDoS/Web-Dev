@@ -1,0 +1,26 @@
+<main class="album-photos">
+    <div class="container">
+        <div class="album-photos__items">
+            <h1 class="album-photos__title">Album Photos</h1>
+
+            <div class="loading">
+                <div class="album__loading" *ngIf="!loaded">
+
+                </div>
+            </div>
+            <div class="album-photos__content" >
+                <div *ngFor="let photo of photos" class="album-photos__item">
+                    <img class="album-photo" [src]="photo.thumbnailUrl" [alt]="photo.title">
+
+                </div>
+            </div>
+            <div class="album-photos__btn">
+                <button class="album-photos__back"  (click)="goBack()">Return</button>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+
+
