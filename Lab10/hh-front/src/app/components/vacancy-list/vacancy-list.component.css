@@ -1,0 +1,125 @@
+
+.vacancy-page {
+  background-color: #f0f4ff;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 800px;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 2px solid #000000;
+}
+  
+
+.vacancy-header {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+  }
+  
+  .vacancy-header h1 {
+    color: #000000;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .add-vacancy-link {
+    color: #aeb1b3;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+    display: inline-block;
+    background-color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    max-width: 800px; 
+    justify-content: center;
+  }
+  
+  .add-vacancy-link:hover {
+    background-color: #d9d9da;
+    border: #000000 1px solid;
+    color: #000000;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  
+  .vacancy-list {
+    list-style-type: none;
+    padding: 0;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .vacancy-item {
+    background-color: #e6f0ff;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .vacancy-link {
+    color: #00050a;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .vacancy-link:hover {
+    color: rgb(10, 10, 10);
+    border: #000000 1px solid;
+    background-color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  

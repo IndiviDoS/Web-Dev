@@ -1,0 +1,14 @@
+<div class="vacancy-header">
+  <h1>Vacancies List</h1>
+</div>
+
+<ul class="vacancy-list">
+  <li *ngFor="let vacancy of vacancies" class="vacancy-item">
+    <a [routerLink]="['/vacancies', vacancy.id]" class="vacancy-link">{{ vacancy.name }}</a>
+    <br />
+    <strong>Description: </strong>{{ vacancy.description }}
+    <br />
+    <strong>Salary: </strong> {{ vacancy.salary | currency }}
+    <hr />
+  </li>
+</ul>

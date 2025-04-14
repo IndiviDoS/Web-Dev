@@ -1,0 +1,151 @@
+.company-details {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: 'Roboto', sans-serif;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 800px;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 2px solid #000000;
+}
+
+.company-name {
+  color: #000000;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 2px solid #000f1f;
+  padding-bottom: 10px;
+  transition: all 0.3s ease;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+.company-description {
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #333333;
+  text-align: center;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #333333;
+  text-align: center;
+  padding: 10px;
+}
+
+h3 {
+  color: #000000;
+  font-size: 24px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 2px solid #000f1f;
+  padding-bottom: 10px;
+}
+
+.vacancy-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  max-height: 400px;
+  overflow-y: auto;
+  background-color: #ffffff;
+}
+
+.vacancy-item {
+  background-color: #ffffff;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+}
+
+.vacancy-title {
+  font-weight: bold;
+  color: #000000;
+}
+
+.vacancy-salary {
+  color: #141414;
+  font-weight: bold;
+}
+
+.vacancy-link {
+  color: #000000;
+  text-decoration: none;
+  border: 1px solid #000407;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  background-color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.vacancy-link:hover {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: 1px solid #020202;
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+.vacancy-link:active {
+  transform: scale(0.95);
+}
+
+.no-vacancies {
+  color: #ffffff;
+  font-size: 16px;
+}
+*{
+  background-color: white;
+}
